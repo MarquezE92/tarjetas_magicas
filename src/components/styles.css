@@ -1,0 +1,23 @@
+.recorderStyle {
+    height: 50px !important;
+    margin-left: 12.5px;
+}
+
+.recorderContainer {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.pauseStop {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.discard {
+    margin-left: 5px;
+    padding: 10px !important;
+    background-color: #fff;
+    border-radius: 8px !important;
+}

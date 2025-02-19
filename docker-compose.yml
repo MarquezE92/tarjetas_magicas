@@ -1,0 +1,22 @@
+version: '2.2'
+
+networks:
+  default:
+    external:
+      name: gift
+
+services:
+  frontend:
+    build: .
+    ports:
+      - 6001:3000
+    volumes:
+      - ./src:/home/frontend/src
+      - .env:/home/frontend/.env
+    env_file:
+      - .env
+    stdin_open: true
+    tty: true
+    restart: always
+    image: frontend_image
+    container_name: frontend

@@ -1,0 +1,7 @@
+export * from './AgText'
+export * from './AgTextSmall'
+export * from './AgTitle'
+export * from './AgTitleBig'
+export * from './AgTextLabel'
+export * from './AgTextCode'
+export * from './AgTextWithImg' 
